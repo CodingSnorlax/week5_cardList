@@ -6,7 +6,6 @@ axios.get('https://raw.githubusercontent.com/hexschool/js-training/main/travelAp
     data = response.data.data;
     console.log(data)
     showCardInfo();
-    // 想請問助教，我這邊第8行寫 showCardInfo(); 跟寫 showCardInfo(data); 有不一樣嗎 
   });
 
 // 宣告變數：卡片區塊
